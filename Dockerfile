@@ -1,4 +1,4 @@
-FROM floydhub/dl-base:latest-gpu-py3
+FROM allansp84/ubuntu16.04-cuda8.0-opencv3.2 
 MAINTAINER Zhenbo Xu "xubooy@gmail.com"
 
 RUN apt-get install python3-tk
